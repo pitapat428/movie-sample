@@ -1,0 +1,99 @@
+header {
+  align-items: center;
+  background-color: rgb(184, 94, 121);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  padding: 10px;
+}
+
+body {
+  align-items: center;
+  background-color: rgb(184, 94, 121);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  width: 270px;
+  height: 25px;
+  margin: auto 10px;
+}
+
+.title {
+  font-size: 70px;
+  text-align: center;
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.title a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.title a:hover {
+  color: #000000;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+#movie-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+#search-form {
+  width: auto;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-card {
+  background-color: #ffffff;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.126);
+  border: 1px solid #ccccccc0;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px;
+  width: 270px;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+}
